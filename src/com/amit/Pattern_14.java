@@ -8,9 +8,9 @@ public class Pattern_14
         System.out.println("Enter the No. of rows : ");
         int r = sc.nextInt();
 
-        for(int i=1;i<=r;i++)
+        for(int i=0;i<=r;i++)
         {
-            for(int j=1;j<=i;j++)
+            for(int j=0;j<=i;j++)
             {
                 System.out.print("*");
             }
@@ -20,7 +20,7 @@ public class Pattern_14
                 System.out.print(" ");
             }
 
-            for(int j=1;j<=i;j++)
+            for(int j=0;j<=i;j++)
             {
                 System.out.print("*");
             }
@@ -30,7 +30,7 @@ public class Pattern_14
 
         for(int i=r-1;i>=0;i--)
         {
-            for(int j=i;j>0;j--)
+            for(int j=0;j<=i;j++)
             {
                 System.out.print("*");
             }
@@ -39,7 +39,7 @@ public class Pattern_14
                 System.out.print(" ");
             }
 
-            for(int j=i;j>0;j--)
+            for(int j=0;j<=i;j++)
             {
                 System.out.print("*");
             }
